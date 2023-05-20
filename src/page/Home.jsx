@@ -138,7 +138,7 @@ export default function Home() {
           <img src={highlights3} className="h-44 md:h-60 rounded-lg" />
         </div>
 
-        <Slider width={380} isflex="flex">
+        <Slider width={380}>
           <img
             src={highlights4}
             className="h-44 min-h-[176px] md:min-h-[240px] md:h-60 rounded-lg"
@@ -164,7 +164,7 @@ export default function Home() {
           <img src={newdeal2} className="w-1/2 rounded-lg" />
         </div>
 
-        <Slider width={245} isflex="flex">
+        <Slider width={245}>
           <img src={newdeal3} className="h-44 md:h-60 rounded-lg " />
           <img src={newdeal4} className="h-44 md:h-60 rounded-lg " />
           <img src={newdeal5} className="h-44 md:h-60 rounded-lg " />
